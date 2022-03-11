@@ -1,0 +1,41 @@
+body{
+   margin:auto;
+   max-width:1024px;
+
+}
+
+table, tr,td,th {
+     border: 1px solid black;
+  
+
+
+}
+td, th{
+    padding: 10px;
+}
+a img {
+    width: 35px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+input{
+    padding: 10px 20px;
+    margin-top: 5px;
+    width: 100%;
+}
+input[type="submit"] {
+
+      width: 80px;
+
+}
+.pesquisa {
+    width: 80%;
+}
+.btn_pesquisa {
+    width: 40px;
+    padding: 10px;
+}

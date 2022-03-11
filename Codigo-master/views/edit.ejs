@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Editar Usuário</title>
+</head>
+<body>
+    <form method="post">
+        Id: <input type="text" name="id" reandoly value="<%=Usuario._id%>"><br>
+        Nome:<input type="text" name="nome" reandoly value="<%=Usuario.nome%>">><br>
+        email <input type="email" name="email" reandoly value="<%=Usuario.email%>"><br>
+        senha <input type="password" name="password" reandoly value="<%=Usuario.senha%>"><br>
+        foto <input type="file" name="foto" reandoly value="<%=Usuario.foto%>"><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
